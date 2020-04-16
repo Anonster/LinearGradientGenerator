@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to right, rgb(81, 65, 190), rgb(173, 118, 228));
+}
+
+.center {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    padding-top: 40vh;
+    font-size: 2em;
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.div1 input {
+    width: 30%;
+    height: 2em;
+    padding: .5em;
+    text-align: center;
+    outline-color: aqua;
+}
